@@ -1,0 +1,21 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "src/server.js",
+        "use": "@vercel/node"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/api/(.*)",
+        "dest": "src/server.js"
+      }
+    ],
+    "env": {
+      "PORT": "4000",
+      "NODE_ENV": "development",
+      "MONGO_URI": "mongodb+srv://balrajmali361:loEpSxMcx5WscrHz@cluster0.rzcaf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+    }
+  }
+  
