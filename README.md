@@ -42,3 +42,13 @@ The Health Management System is a full-stack web application designed to streaml
    ```bash
    git clone https://github.com/Neelabh-Sharma/HMS.git
    cd HMS
+2. **install dependency**:
+   ```bash
+   cd client
+   npm install
+   cd ../
+   cd server
+   npm install
+3. **Run the server and client**:
+   ```bash
+   npm run dev
